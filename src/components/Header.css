@@ -1,0 +1,49 @@
+
+.header {
+    height: 56px;
+    width: 100%;
+    background: #fff;
+    display:flex;
+    border-bottom:1px solid #ccc;
+}
+
+.logo {
+    height: 66px;
+    width:66px;
+    margin-left:30px;
+}
+
+.title {
+    height:100%;
+    width:240px;
+    margin:0 auto;
+    line-height:56px;
+    font-size:18px;
+    color:#333;
+    text-align: center;
+}
+
+.button-list {
+    height:56px;
+    padding: 15px 0px;
+    float:right;;
+    float: right;
+}
+
+.button-list button {
+    border-radius:20px;
+    border:1px solid #ec6149;
+    height:40px;
+    width:80px;
+    margin: -8px 10px;
+    font-size:14px;
+    text-align:center;
+    line-height:40px;
+    vertical-align:middle;
+    color: #ec6149;
+}
+
+.button-list .current{
+    color:#fff;
+    background:#ec6149;
+}

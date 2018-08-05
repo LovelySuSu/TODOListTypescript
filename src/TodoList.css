@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    width: 800px;
+    margin: 20px auto;
+}
+
+.container > button {
+    background: #ffffff;
+    margin-left: 15px;
+}
+.list {
+    width: 800px;
+    margin: 20px auto;
+    border-bottom: 1px solid #eeeeee;
+    vertical-align: middle;
+}
+.task-name {
+    padding-left: 20px;
+    line-height: 32px;
+    flex:8
+}
+.delete {
+    flex:1
+}
