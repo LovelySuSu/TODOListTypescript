@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import './index.css'
 import store from './store/index'
-import TodoList from './TodoList';
+import TodoList from './components/todoList/TodoList';
 
 ReactDOM.render(
  <Provider store={store}>

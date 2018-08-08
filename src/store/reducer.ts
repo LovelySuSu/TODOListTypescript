@@ -1,8 +1,12 @@
-const defaultState = {
-    inputValue: '',
-    taskList: []
-}
+import {combineReducers} from 'redux';
 
-export default (state:any = defaultState,action:string) => {
-    return state;
-}
+import TodoListReducer from '../components/todoList/TodoListReducer';
+import HeaderReducer from '../components/header/HeaderReducer';
+
+const rootReducer = combineReducers({
+    header: HeaderReducer,
+    todoList: TodoListReducer
+
+});
+
+export default rootReducer;
