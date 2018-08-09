@@ -1,0 +1,20 @@
+{
+  "list":[
+    {
+      "name":"react",
+      "isDone":true
+    },{
+      "name":"react-redux",
+      "isDone":false
+    },{
+      "name":"react-native",
+      "isDone":false
+    },{
+      "name":"redux",
+      "isDone":true
+    },{
+      "name":"redux-thunk",
+      "isDone":false
+    }
+  ]
+}

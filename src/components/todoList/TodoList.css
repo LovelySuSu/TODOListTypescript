@@ -2,6 +2,7 @@
     display: flex;
     width: 800px;
     margin: 20px auto;
+    justify-content: space-between;
 }
 
 .container > button {
@@ -20,5 +21,9 @@
     flex:8
 }
 .delete {
-    flex:1
+    flex:1;
+}
+.state-name {
+    flex:1;
+    margin-right: 20px;
 }

@@ -6,6 +6,7 @@ import {IHeaderStates,IHeaderProps} from "./types";
 import {connect} from "react-redux";
 import {changeButtonItem} from "../../store/actions";
 import store from "../../store";
+import {Link} from "react-router-dom";
 
 interface IThisHeadState {
     header: IHeaderStates
@@ -26,7 +27,7 @@ class Header extends Component<IHeaderProps,IHeaderStates> {
                                         key={index}
                                         className={currentIndex === index ? 'current' : ''}
                                 >
-                                    {item}
+                                    <Link to={index === 0 ? '/':'/learn'}>{item}</Link>
                                 </button>
                             );
                         })

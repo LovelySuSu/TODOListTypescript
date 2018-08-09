@@ -32,7 +32,8 @@
 
 .button-list button {
     border-radius:20px;
-    border:1px solid #ec6149;
+    border:1px solid #40a9ff;
+    /*border:1px solid #ec6149;*/
     height:40px;
     width:80px;
     margin: -8px 10px;
@@ -40,10 +41,14 @@
     text-align:center;
     line-height:40px;
     vertical-align:middle;
-    color: #ec6149;
+    /*color: #ec6149;*/
+    color:#40a9ff;
 }
 
 .button-list .current{
+    background: #40a9ff;
+    /*background:#ec6149;*/
+}
+.button-list .current >a{
     color:#fff;
-    background:#ec6149;
 }

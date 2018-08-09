@@ -7,7 +7,7 @@ interface actionType {
 }
 
 const defaultState:IHeaderStates = {
-    buttonList:['全部','已完成','未完成'],
+    buttonList:['计划表','学习路径'],
     currentIndex: 0
 }
 
