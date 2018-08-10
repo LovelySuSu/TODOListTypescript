@@ -47,8 +47,6 @@
 
 .button-list .current{
     background: #40a9ff;
+    color:#fff
     /*background:#ec6149;*/
-}
-.button-list .current >a{
-    color:#fff;
 }

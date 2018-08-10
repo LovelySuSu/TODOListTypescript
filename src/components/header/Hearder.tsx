@@ -23,12 +23,12 @@ class Header extends Component<IHeaderProps,IHeaderStates> {
                     {
                         buttonList.map((item,index)=>{
                             return (
-                                <button onClick={() => changeButton(index)}
-                                        key={index}
-                                        className={currentIndex === index ? 'current' : ''}
-                                >
-                                    <Link to={index === 0 ? '/':'/learn'}>{item}</Link>
-                                </button>
+                                    <Link to={index === 0 ? '/':'/learn'} key={index}>
+                                        <button onClick={() => changeButton(index)}
+                                                className={currentIndex === index ? 'current' : ''}
+                                        >{item}</button>
+                                    </Link>
+
                             );
                         })
                     }

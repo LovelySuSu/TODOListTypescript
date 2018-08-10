@@ -16,7 +16,6 @@ ReactDOM.render(
              <Header/>
              <Route path='/' exact component={TodoList}/>
              <Route path='/learn' exact component={BookList}/>
-             {/*<TodoList />*/}
          </Fragment>
      </BrowserRouter>
 

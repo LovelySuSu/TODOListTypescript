@@ -1,0 +1,13 @@
+.list {
+    width: 800px;
+    margin: 20px auto;
+    border-bottom: 1px solid #eeeeee;
+    vertical-align: middle;
+}
+.my-button {
+    display: block;
+    width: 800px;
+    margin: 20px auto;
+    border-bottom: 1px solid #eeeeee;
+    vertical-align: middle;
+}

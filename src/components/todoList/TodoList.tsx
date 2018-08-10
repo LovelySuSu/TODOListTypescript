@@ -14,8 +14,9 @@ interface IThisState {
 }
 class TodoList extends Component<ITodoListProps,ITodoListState> {
     componentDidMount() {
-       let { initList } = this.props;
-       initList();
+       let { initList,taskList } = this.props;
+       if(taskList.length === 0) initList();
+
     }
     public render() {
         let  { handleInputChange,addItem,deleteItem,changeState,inputValue,taskList} = this.props;
